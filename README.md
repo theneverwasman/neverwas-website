@@ -1,18 +1,25 @@
-# The Neverwas Man — Website
+# The Neverwas Man
 
-Official site for The Neverwas Man.
+Official website for The Neverwas Man.
 
-## Pages
-- `index.html` — Homepage with landing image and newest release
-- `echoes.html` — Full music catalog
-- `scrolls.html` — Lyrics
-- `store.html` — Physical releases (Elastic Stage)
-- `social.html` — Social links
-- `style.css` — Styles
-- `lyrics.md` — Complete lyrics for all releases
+## Releases
 
-## Images
-- `landing.jpg` — Neon neon sign landing image
-- `farther-cover.jpg` — Farther From Where We Started cover
-- `state-of-the-human-cover.jpg` — State of the Human cover
-- `ghost-town-cover.jpg` — Ghost Town cover
+- **Farther From Where We Started** (single)
+- **State of the Human** (EP) — Love Song, Under The Ground, Being Without You
+- **Ghost Town** (album) — 10 tracks
+
+## Site pages
+
+- `index.html` — homepage
+- `echoes.html` — full catalog
+- `scrolls.html` — lyrics
+- `store.html` — Elastic Stage store link
+- `social.html` — social links
+
+## Audio
+
+All WAV files are in the `audio/` folder.
+
+## Live site
+
+https://theneverwasman.github.io/neverwas-website
