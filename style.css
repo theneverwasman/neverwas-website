@@ -230,3 +230,23 @@ header.hero::before {
   section.bio { padding-bottom: 2.5rem !important; }
   .donate-line + * , main { padding-top: 1rem; }
 }
+
+/* Album sections: plain-text links, white info line */
+.newest p, .release p { color: #fff; }
+.newest .btn, .release .btn {
+  background: none; border: none; box-shadow: none; border-radius: 0;
+  padding: 0.3rem 0.4rem; color: #ff1a1a;
+  font-family: 'Orbitron', sans-serif; letter-spacing: 0.1em;
+}
+.newest .btn:hover, .release .btn:hover {
+  background: none; box-shadow: none; color: #fff; text-shadow: 0 0 10px #ff1a1a;
+}
+
+/* Bigger gap between bio and Newest Release */
+.newest { padding-top: 1.75rem; }
+@media (max-width: 600px) { .newest { padding-top: 3.4rem; } }
+
+/* Run-in bio label + equal gaps around bio */
+.bio-label { font-weight: bold; font-size: 1.2em; color: #fff; }
+.newest { padding-top: 2.9rem; }
+@media (max-width: 600px) { section.bio { padding-top: 3rem; } .newest { padding-top: 3.4rem; } }
