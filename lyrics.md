@@ -269,3 +269,205 @@ I can feel the fire reaching out to touch my soul
 It feels too good and leaves me nowhere else to go
 I can feel the fire reaching out to touch my soul
 It feels too good and leaves me nowhere else to go
+
+---
+
+## Human After All (album)
+
+### 1. Human After All
+
+Your knight in shining armor has fallen down
+Turns out he was human after all
+
+You longed to see a savior in his eyes
+The love that you once had for him has died
+
+Lock him up in his mistakes and throw the key away
+Look for someone else to save the day
+
+### 2. Really Know Me
+
+You don't really know me
+That's okay
+I don't want you to know me anyway
+
+I don't really know you
+That's okay
+You don't want me to know you anyway
+
+### 3. Just Me
+
+Send me away to a land where there's nothing
+No one to talk to, nothing to do
+Just me
+
+No one to disappoint
+With the thoughts inside my head
+No one to tell me that
+My heart's not where it's meant to be
+Just me
+
+I don't want electric congregations
+I don't need fruitless conversation
+I want out of virtual relations
+I want out of this television nation
+
+### 4. Back To Me
+
+When you swept my heart clean
+And made the demons flee
+
+They went searching far and wide
+Couldn't find no rest
+So they ran right back to me
+
+The condition of my soul
+Is worse than it was
+So many years ago
+
+When you swept my heart clean
+And made the demons flee
+
+They went searching far and wide
+Couldn't find no rest
+So they ran right back to me
+
+Can you sweep my heart clean again
+And restore my joy to me?
+
+### 5. I'd Prefer
+
+I'd prefer a bullet to the brain
+Than to live without your love
+
+I'd prefer
+My skin to burn
+Than to live without your love
+
+My brown-haired, blue-eyed baby
+Lay me down
+
+You set my soul on fire
+
+### 6. Spend My Dime
+
+All I know is what I've been told
+I've been told you can't trust no one
+All I can do is what I've been shown
+I've been shown how to hide my gold
+
+I'll take my time
+I'll spend my dime
+Any way I choose
+You'll spend your life
+Tearing down mine
+I can be your fool
+
+### 7. Who I've Become
+
+I don't like who I've become
+I'm ashamed of what I've done
+
+In the darkness I come to find
+What's in this heart of mine
+
+I don't like who I've become
+I'm ashamed of what I've done
+
+In the darkness I come to find
+What's in this heart of mine
+
+I've dug myself a grave to die in
+All I wanted was somebody to love
+I've come to find I'm no good and broken
+All I ever needed was somebody to love
+
+### 8. What Was Mine
+
+I want to take it all away
+What was mine
+You couldn't love me anyway
+You're not blind
+
+Try your best to change my mind
+You'll never know my heart
+Anything I've ever tried
+Falls apart
+
+I want to give it all away
+Nothing satisfies
+You won't believe me anyway
+You're always right
+
+### 9. Where I Belong
+
+Bury my bones in an unmarked grave
+Bury a life of guilt and shame
+Send me back to where I belong
+Away from you
+
+I'm too sad to try anymore
+I'm too tired to fight
+
+I never deserved the love you gave
+I never could overcome my mistakes
+Carry me to where I belong
+Away from you
+
+I'm too sad to try anymore
+I'm too tired to fight
+
+In this bed I made I must lay
+Covered from head to toe in decay
+
+Bury my bones in an unmarked grave
+Bury a life of guilt and shame
+Send me back to where I belong
+Away from you
+
+### 10. All I Want
+
+A halo made of rope
+Only one step to go
+Take me away from here
+Before I lose my soul
+
+Take me away from here
+
+A loaded magazine
+A beautiful machine
+Take me away from here
+Before I gain control
+
+### 11. Goodbye
+
+I want to drown in my sorrow
+Sink to the bottom of the ocean
+And say goodbye to the pain inside
+
+Goodbye, my love
+I've grown cold
+Goodbye, my love
+I can't go on
+
+I want to drown in my shame
+Sink to the bottom of the ocean
+Say goodbye to a life of lies
+
+Goodbye, my love
+I've grown cold
+Goodbye, my love
+I can't go on
+
+At the bottom of the ocean
+My dreams will come true
+
+### 12. Read My Letter
+
+Hangin' out
+Waiting for the fade out
+
+Read my letter, how it never got any better
+I finally made it out of this world
+I tried to tell you, you had no clue what I would do
+I finally made it out of this world
