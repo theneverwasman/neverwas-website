@@ -89,29 +89,37 @@ main { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
 .icon-row {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.8rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .icon-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 52px;
-  height: 52px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   background: #111;
-  color: #ff1a1a;
+  color: #ff1a1a !important;
   border: 1px solid #ff1a1a;
   text-decoration: none;
   transition: all 0.2s;
 }
+.icon-btn svg {
+  fill: #ff1a1a !important;
+}
 .icon-btn:hover {
   background: #ff1a1a;
-  color: #fff;
+  color: #fff !important;
   box-shadow: 0 0 15px #ff1a1a;
+}
+.icon-btn:hover svg {
+  fill: #fff !important;
 }
 footer { text-align: center; padding: 2rem; color: #444; font-size: 0.9rem; }
 @media (max-width: 600px) { 
   .neon-title { font-size: 3rem; } 
   nav { gap: 1rem; } 
+  .icon-row { gap: 1.2rem; }
 }
