@@ -222,3 +222,11 @@ header.hero::before {
 
 .tracklist{list-style:decimal;text-align:left;display:inline-block;margin:.4rem auto .9rem;padding-left:1.6rem;font-size:.92rem;line-height:1.5;color:#ddd}
 .tracklist li::marker{color:#ff1a1a}
+@media (max-width: 600px) {
+  .hero-icons .icon-row { flex-wrap: nowrap; justify-content: center; gap: 0.35rem; }
+  .hero-icons .icon-btn { width: 34px; height: 34px; flex: 0 0 auto; }
+  .hero-icons .icon-btn svg { width: 16px; height: 16px; }
+  .donate-line { margin-bottom: 1.6rem !important; }
+  section.bio { padding-bottom: 2.5rem !important; }
+  .donate-line + * , main { padding-top: 1rem; }
+}
