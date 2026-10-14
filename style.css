@@ -39,7 +39,7 @@ nav a {
   font-family: 'Orbitron', sans-serif;
 }
 nav a:hover { color: #ff1a1a; text-shadow: 0 0 10px #ff1a1a; }
-main { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
+main { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
 .newest { text-align: center; }
 .newest h2 { 
   color: #ff1a1a; 
@@ -62,15 +62,20 @@ main { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
   letter-spacing: 0.05em;
 }
 .btn:hover { background: #cc0000; box-shadow: 0 0 15px #ff1a1a; }
-.catalog { 
-  display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
-  gap: 2rem; 
+.catalog { display: block; }
+.release { 
+  text-align: center; 
+  margin-bottom: 3rem; 
 }
-.release { text-align: center; }
-.release img { width: 100%; max-width: 280px; border-radius: 6px; margin: 0 auto; display: block; }
-.release h3 { margin: 0.5rem 0; font-size: 1.1rem; }
-.release p { color: #888; font-size: 0.85rem; }
+.release img { 
+  width: 100%; 
+  max-width: 320px; 
+  border-radius: 6px; 
+  margin: 0 auto 0.5rem; 
+  display: block; 
+}
+.release h3 { margin: 0.5rem 0; font-size: 1.3rem; }
+.release p { color: #888; font-size: 0.95rem; }
 .scroll-section { margin-bottom: 3rem; }
 .scroll-section h2 { color: #ff1a1a; border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1rem; }
 .scroll-section h3 { color: #ccc; margin: 1.5rem 0 0.5rem; }
