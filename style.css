@@ -297,7 +297,7 @@ header p { color: #fff; }
 
 /* Info lines: type/track count, then release date, no wrapping */
 .release p, .newest p { white-space: nowrap; }
-.rel-date { white-space: nowrap; }
+.rel-date { white-space: nowrap; color: #ff1a1a; }
 
 /* White menu links on every page (red logo behind them) */
 nav a, nav a:visited, nav.hero-nav-fallback a { color: #fff; text-shadow: none; }
