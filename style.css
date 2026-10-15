@@ -282,3 +282,15 @@ header p { color: #fff; }
 .release p, .newest p { color: #fff; }
 .tracklist li { color: #fff; }
 .tracklist li::marker, ol li::marker { color: #ff1a1a; }
+
+/* Release buttons: always one centered row */
+.release-links { display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 0.6rem; }
+.release-links .btn { white-space: nowrap; margin: 0.3rem 0; }
+@media (max-width: 600px) {
+  .release-links { gap: 0.4rem; }
+  .release-links .btn { font-size: 0.86rem; letter-spacing: 0.03em; padding: 0.3rem 0.25rem; }
+  .release-links--3 { gap: 0.1rem; }
+  .release-links--3 .btn { font-size: 0.56rem; letter-spacing: 0; padding: 0.3rem 0.2rem; }
+  .release-links--compact { gap: 0.2rem; }
+  .release-links--compact .btn { font-size: 0.75rem; letter-spacing: 0.01em; padding: 0.3rem 0.2rem; }
+}
