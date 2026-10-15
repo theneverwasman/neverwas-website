@@ -294,3 +294,7 @@ header p { color: #fff; }
   .release-links--compact { gap: 0.2rem; }
   .release-links--compact .btn { font-size: 0.75rem; letter-spacing: 0.01em; padding: 0.3rem 0.2rem; }
 }
+
+/* Info lines: type/track count, then release date, no wrapping */
+.release p, .newest p { white-space: nowrap; }
+.rel-date { white-space: nowrap; }
