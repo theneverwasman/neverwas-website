@@ -7,11 +7,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+  .scroll-album > summary { list-style: none; pointer-events: none; border-bottom: 1px solid #333; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+  .scroll-album > summary::-webkit-details-marker { display: none; }
+  .scroll-album > summary h2 { display: inline; pointer-events: auto; cursor: pointer; border-bottom: none; padding: 0; margin: 0; }
+  .scroll-album > summary h2:hover { text-shadow: 0 0 8px #ff1a1a; }
+  .scroll-section { margin-bottom: 1.25rem; }
+  .scroll-album[open] { margin-bottom: 2rem; }
+</style>
 </head>
 <body>
 <header>
   <h1>Scrolls</h1>
-  <p>Lyrics, journals, poetry, word stuff</p>
+  <p>Lyrics</p>
 </header>
 <nav>
   <a href="index.html">Home</a>
@@ -21,7 +29,8 @@
 </nav>
 <main>
   <section class="scroll-section">
-    <h2>Kingdom 13</h2>
+    <details class="scroll-album">
+      <summary><h2>Kingdom 13</h2></summary>
     <h3>Nothing Ever</h3>
     <pre>Day in, day out, days that go on and on, eventually ending, eventually ending
 Then beginning again and again, again and again
@@ -90,16 +99,20 @@ All you ever really brought to me was misery, is crushing me
 I don't care about you anymore
 You left my broken heart on the floor
 All you ever really brought to me was misery, is crushing me</pre>
+    </details>
   </section>
 
   <section class="scroll-section">
-    <h2>Vibranium</h2>
+    <details class="scroll-album">
+      <summary><h2>Vibranium</h2></summary>
     <h3>Tell Me You'll Be Good To Me</h3>
-    <pre>Just tell me you'll be good to me</pre>
+    <pre>Tell me you'll be good to me</pre>
+    </details>
   </section>
 
   <section class="scroll-section">
-    <h2>Farther From Where We Started</h2>
+    <details class="scroll-album">
+      <summary><h2>Farther From Where We Started</h2></summary>
     <pre>Everybody's watching everybody else live
 Everybody's judging everybody else's sins
 Everybody wants to write their name in the sky
@@ -114,10 +127,12 @@ Everybody's watching everybody else move
 Everybody judging everybody else's sins
 Everybody wants to write their name in the sky
 Everybody is addicted to their own way of life</pre>
+    </details>
   </section>
 
   <section class="scroll-section">
-    <h2>State of the Human</h2>
+    <details class="scroll-album">
+      <summary><h2>State of the Human</h2></summary>
     <h3>Love Song</h3>
     <pre>I wanna get to know you in and out, up and down
 Can you feel what I am talking about?
@@ -162,16 +177,385 @@ I hoped that you would hear my silent cries
 I hope you'd wipe away the tears
 Wipe away the tears
 Wipe away the tears</pre>
+    </details>
   </section>
 
   <section class="scroll-section">
-    <h2>Ghost Town</h2>
-    <p>Full album lyrics — 10 tracks. See <a href="lyrics.md">lyrics.md</a> for the complete set.</p>
+    <details class="scroll-album">
+      <summary><h2>Ghost Town</h2></summary>
+    <h3>Below the Unknown</h3>
+    <pre>Days go by like moonlight, shadows line the halls
+Time is set for running out, no one ever calls
+I'll lay down in the water, float below the diamond sea
+Watch the world chase after paper, after what's been sold as dreams
+
+Fortune clouds our starry eyes, possessions turn to dust
+Reach for what was set before you, occupy your time
+I'll lay down in the water, float below the diamond sea
+Watch the world chase after paper, after what's been sold as dreams</pre>
+    <h3>Benzo Coma</h3>
+    <pre>I'm betting on a benzo coma to get me through the day
+I'm betting on a benzo coma to numb my pain
+I'll collect the stones, I'll collect the stones
+I'll collect the stones you throw
+
+I'm getting my mind sedated to fade my thoughts away
+I'm betting on isolation to keep you far away
+I'll collect the stones, I'll collect the stones
+I'll collect the stones you throw
+
+Morphine river, wash the world away
+Morphine river, wash the world away
+Morphine river, wash the world away
+Morphine river, wash the world away
+I'll collect the stones, I'll collect the stones
+I'll collect the stones you throw</pre>
+    <h3>Broken, Holding On</h3>
+    <pre>Dying from decisions that were made
+Pretending we're not living in the grave
+Hoping we will reach the stars someday
+Forgetting we will turn to dust and blow away
+
+We are all broken and holding on
+We are all broken and holding on
+The proudest of souls will give the blame
+The brightest star will reveal our shame
+
+The dimmest night will test our faith
+The coldest of hearts will cause the most pain
+We are all broken and holding on
+We are all broken and holding on
+
+Throw our mistakes in the fire
+Purify our present lives
+The future will be much brighter
+Without the regret that clouds our eyes
+
+Throw our mistakes in the fire
+Purify our present lives
+The future will be much brighter
+Without the regret that clouds our eyes</pre>
+    <h3>Epitaph</h3>
+    <pre>Here lies everything you hated
+Now you can go on happily sedated
+I finally get to rest my bones in the land of make-believe
+You get to paint your face and take your medication and pretend you're free
+
+Here lies everything you hated
+Here lies all of your frustration
+I finally get to rest my bones
+In the land of make believe
+You get to paint your face and take your medication and pretend you're free
+
+Separated by the grave
+Let the blame lie with me in the cold ground
+Let the burden fall away, let the shame lie with me in the cold ground</pre>
+    <h3>Final Bow</h3>
+    <pre>I wake up in time to tie myself in chains
+My spirit dies a little more each passing day
+My final bow, I want out
+I can't escape, so I'll burn out
+
+My heart is giving up and longs for the grave
+I fake a smile to pretend that I'm not in pain
+My final bow, I want out
+I can't escape, so I'll burn out
+
+Shadows cover over color, free my weary soul
+Shallow waters I remember, leave the past alone
+My final bow, I want out
+I can't escape, so I'll burn out</pre>
+    <h3>Full of Lead</h3>
+    <pre>I'm running out of ways to pretend to be happy
+I'm running out of parts to play to keep you from me
+My lungs are full of lead, my heart is numb
+My thoughts would scare the dead, my will is gone
+
+Empty spaces and strange faces fill my life
+You couldn't know me if you tried
+
+My lungs are full of lead, my heart is numb
+My thoughts would scare the dead, my will is gone
+Wasted life, wasting time
+Wasted life, wasting time
+Wasted life, wasting time
+Wasted life, wasting time
+
+My lungs are full of lead, my heart is numb
+My thoughts would scare the dead, my will is gone</pre>
+    <h3>Ghost Town</h3>
+    <pre>My friends will never be there when I'm down
+Nobody ever comes around
+All I can think about are all the things that I've done wrong
+All I will leave behind are broken dreams and dusty bones
+Where did everybody go?
+Where did everybody go?
+
+All I can think about are all the things that I've done wrong
+All I will leave behind are broken dreams and dusty bones
+Feels like a desert in my soul
+And in the end, I'll die alone
+Feels like a desert in my soul
+And in the end, I'll die alone
+
+My friends will never be there when I'm down
+Nobody ever comes around
+My friends will never be there when I'm down
+Nobody ever comes around</pre>
+    <h3>Medicate</h3>
+    <pre>There's a hollowness that follows me every day
+There are chemicals that burn my soul but kill the pain
+There are things that I'll never find
+Happiness and a peace of mind
+
+There's an emptiness that won't relent until I'm dead
+There are memories that won't give me a second chance
+There are things that will never change
+My broken heart and a life of pain
+
+I'll medicate, I'll drift away
+I'll medicate, I'll medicate, I'll drift away
+I'll medicate, I'll medicate, I'll drift away
+
+There's a hollowness that follows me every day
+There are chemicals that burn my soul but kill the pain
+There's an emptiness that won't relent until I'm dead
+There are memories that won't give me a second chance
+There are things that I'll never find
+Happiness and a peace of mind</pre>
+    <h3>Take Me Out</h3>
+    <pre>Fake you out and lie some more
+Put my mind at ease today
+I let my spirit die
+I let my spirit die
+
+Take me out of this world
+Put my body in the grave
+Let my spirit fly, let my spirit fly
+Let my spirit fly, let my spirit fly
+
+Long for the past and the present dies
+Look ahead, for what you'll never find
+Long for the past and the present dies
+Look ahead, for what you'll never find</pre>
+    <h3>Tell-Tale Heart</h3>
+    <pre>The tell tale heart beats softly underneath my bed
+I can feel the fire reaching out to touch my soul
+It feels too good and leaves me nowhere else to go
+I can feel the fire reaching out to touch my soul
+It feels too good and leaves me nowhere else to go
+
+The scarlet letter branded on me leaves no room for rest
+I can feel the fire reaching out to touch my soul
+It feels too good and leaves no words to go
+
+Cold dead stare behind hollow eyes
+The poison from her lips took me by surprise
+Cold dead stare behind hollow eyes
+The poison from her lips took me by surprise
+
+I can feel the fire reaching out to touch my soul
+It feels too good and leaves me nowhere else to go
+I can feel the fire reaching out to touch my soul
+It feels too good and leaves me nowhere else to go</pre>
+    </details>
   </section>
 
   <section class="scroll-section">
-    <h2>Human After All</h2>
-    <p>Full album lyrics — 12 tracks. See <a href="lyrics.md">lyrics.md</a> for the complete set.</p>
+    <details class="scroll-album">
+      <summary><h2>Human After All</h2></summary>
+    <h3>Human After All</h3>
+    <pre>Your knight in shining armor has fallen down
+Turns out he was human after all
+
+You longed to see a savior in his eyes
+The love that you once had for him has died
+
+Lock him up in his mistakes and throw the key away
+Look for someone else to save the day</pre>
+    <h3>Really Know Me</h3>
+    <pre>You don't really know me
+That's okay
+I don't want you to know me anyway
+
+I'll paint my face
+Give you a smile
+But the less I need is you
+Stealing more of my time
+
+I don't really know you
+That's okay
+You don't want me to know you anyway</pre>
+    <h3>Just Me</h3>
+    <pre>Send me away to a land where there's nothing
+No one to talk to, nothing to do
+Just me
+
+No one to disappoint
+With the thoughts inside my head
+No one to tell me that
+My heart's not where it should be
+Just me
+
+I don't want electric congregations
+I don't need fruitless conversation
+I want out of virtual relations
+I want out of this television nation</pre>
+    <h3>Back To Me</h3>
+    <pre>When you swept my heart clean
+And made the demons flee
+
+They went searching far and wide
+Couldn't find no rest
+So they ran right back to me
+
+The condition of my soul
+Is worse than it was
+So many years ago
+
+When you swept my heart clean
+And made the demons flee
+
+They went searching far and wide
+Couldn't find no rest
+So they ran right back to me
+
+Can you sweep my heart clean again
+And restore my joy to me?</pre>
+    <h3>I'd Prefer</h3>
+    <pre>I'd prefer a bullet to the brain
+Than to live without your love
+
+I'd prefer
+My skin to burn
+Than to live without your love
+
+My brown-haired, blue-eyed baby
+Lay me down
+
+No one else can ease my pain like you
+No one else can fill my heart like you
+
+You set my soul on fire</pre>
+    <h3>Spend My Dime</h3>
+    <pre>All I know is what I've been told
+I've been told you can't trust no one
+All I can do is what I've been shown
+I've been shown how to hide my gold
+
+I'll take my time
+I'll spend my dime
+Any way I choose
+You'll spend your life
+Tearing down mine
+I can be your fool</pre>
+    <h3>Who I've Become</h3>
+    <pre>I don't like who I've become
+I'm ashamed of what I've done
+
+In the darkness I come to find
+What's in this heart of mine
+Eternal life when I die
+Still I decline the light
+
+I don't like who I've become
+I'm ashamed of what I've done
+
+In the darkness I come to find
+What's in this heart of mine
+Eternal life when I die
+Still I decline the light
+
+I've dug myself a grave to die in
+All I wanted was somebody to love
+I've come to find I'm no good and broken
+All I ever needed was somebody to love</pre>
+    <h3>What Was Mine</h3>
+    <pre>I want to take it all away
+What was mine
+You couldn't love me anyway
+You're not blind
+
+Try your best to change my mind
+You'll never know my heart
+Anything I've ever tried
+Falls apart
+
+I want to give it all away
+Nothing satisfies
+You won't believe me anyway
+You're always right
+
+What was mine has been destroyed
+Turned to ashes, never to return
+The memory of who I was remains
+Burned to ashes and locked away</pre>
+    <h3>Where I Belong</h3>
+    <pre>Bury my bones in an unmarked grave
+Bury a life of guilt and shame
+Send me back to where I belong
+Away from you
+
+I'm too sad to try anymore
+I'm too tired to fight
+
+I never deserved the love you gave
+I never could overcome my mistakes
+Carry me to where I belong
+Away from you
+
+I'm too sad to try anymore
+I'm too tired to fight
+
+In this bed I made I must lay
+Covered from head to toe in decay
+
+Bury my bones in an unmarked grave
+Bury a life of guilt and shame
+Send me back to where I belong
+Away from you</pre>
+    <h3>All I Want</h3>
+    <pre>A halo made of rope
+Only one step to go
+Take me away from here
+Before I lose my soul
+
+Take me away from here
+
+A loaded magazine
+A beautiful machine
+Take me away from here
+Before I gain control</pre>
+    <h3>Goodbye</h3>
+    <pre>I want to drown in my sorrow
+Sink to the bottom of the ocean
+And say goodbye to the pain inside
+
+Goodbye, my love
+I've grown cold
+Goodbye, my love
+I can't go on
+
+I want to drown in my shame
+Sink to the bottom of the ocean
+Say goodbye to a life of lies
+
+Goodbye, my love
+I've grown cold
+Goodbye, my love
+I can't go on
+
+At the bottom of the ocean
+My dreams will come true</pre>
+    <h3>Read My Letter</h3>
+    <pre>Hangin' out
+Waiting for the fade out
+
+Read my letter, how it never got any better
+I finally made it out of this world
+I tried to tell you, you had no clue what I would do
+I finally made it out of this world</pre>
+    </details>
   </section>
 </main>
 <footer>
