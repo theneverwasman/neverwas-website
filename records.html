@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Records — The Neverwas Man</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="records.css">
+</head>
+<body>
+<header>
+  <h1>Records</h1>
+  <p>Drop the needle — tap a record to play it</p>
+</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="echoes.html">Echoes</a>
+  <a href="scrolls.html">Scrolls</a>
+  <a href="records.html">Records</a>
+</nav>
+<main class="records">
+  <div class="shelf" id="shelf"></div>
+</main>
+<footer>
+  <p>&copy; The Neverwas Man</p>
+</footer>
+<script>
+/* Record shelf data — swap cover paths here when new artwork arrives.
+   bc = Bandcamp album id (EmbeddedPlayer); sp = Spotify album id (fallback). */
+var RECORDS = [
+ {
+  "title": "To the Flames",
+  "type": "Album — 9 tracks · 2026",
+  "cover": "to-the-flames-cover.jpg",
+  "tracks": 9,
+  "bc": "3037087764",
+  "sp": "0b6ygUlcmpmASN6OpRMwIp"
+ },
+ {
+  "title": "Kingdom 13",
+  "type": "EP — 6 tracks · 2026",
+  "cover": "kingdom-13-cover.jpg",
+  "tracks": 6,
+  "bc": "4233137254",
+  "sp": "6lM4odk2ZLZFEkuykma0Kz"
+ },
+ {
+  "title": "Get Out",
+  "type": "Single · 2026",
+  "cover": "get-out-cover.jpg",
+  "tracks": 1,
+  "bc": "1672199123",
+  "sp": "1g8sFHkLQ3UiaPkxSlCbBh"
+ },
+ {
+  "title": "Endless Motion",
+  "type": "Album — 8 tracks · 2026",
+  "cover": "endless-motion-cover.jpg",
+  "tracks": 8,
+  "bc": "2174428095",
+  "sp": "72CDtxndAp28MIZZL3Omif"
+ },
+ {
+  "title": "Feel Good",
+  "type": "Single · 2026",
+  "cover": "feel-good-cover.jpg",
+  "tracks": 1,
+  "bc": "696629736",
+  "sp": "3FbMfb3tMRitKVMxqwA6om"
+ },
+ {
+  "title": "The Grove",
+  "type": "Single · 2026",
+  "cover": "the-grove-cover.jpg",
+  "tracks": 1,
+  "bc": "2688293008",
+  "sp": "4PO2JLFZikUtkZ6cjoDMc1"
+ },
+ {
+  "title": "The Descent",
+  "type": "Single — 3 tracks · 2026",
+  "cover": "the-descent-cover.jpg",
+  "tracks": 3,
+  "bc": "1580908965",
+  "sp": "5tQUjcQ0BrJSSRpq2S19qt"
+ },
+ {
+  "title": "Moments Before",
+  "type": "Album — 11 tracks · 2026",
+  "cover": "moments-before-cover.jpg",
+  "tracks": 11,
+  "bc": "2289042793",
+  "sp": "6aoaCfRsvQrSmO3xwwE3Fk"
+ },
+ {
+  "title": "Day One",
+  "type": "Single — 3 tracks · 2026",
+  "cover": "day-one-cover.jpg",
+  "tracks": 3,
+  "bc": "2482926831",
+  "sp": "1fyqDrd7ZjNUp28eTIcV67"
+ },
+ {
+  "title": "Shades of Midnight",
+  "type": "Album — 7 tracks · 2026",
+  "cover": "shades-of-midnight-cover.jpg",
+  "tracks": 7,
+  "bc": "542945151",
+  "sp": "1zA9LtYKG9erewLdoOq3Mi"
+ },
+ {
+  "title": "The Valley of Sin",
+  "type": "Single · 2026",
+  "cover": "the-valley-of-sin-cover.jpg",
+  "tracks": 1,
+  "bc": "1297663440",
+  "sp": "06Cdmm7MHsc607bwfHwKF7"
+ },
+ {
+  "title": "Under the Ground",
+  "type": "Single · 2026",
+  "cover": "under-the-ground-cover.jpg",
+  "tracks": 1,
+  "bc": "2761951926",
+  "sp": null
+ },
+ {
+  "title": "Fruitless Waste",
+  "type": "Instrumental album — 13 tracks · 2025",
+  "cover": "fruitless-waste-cover.jpg",
+  "tracks": 13,
+  "bc": "2054522088",
+  "sp": "0VyMtuyp97G3de0VWPR52l"
+ },
+ {
+  "title": "Vibranium",
+  "type": "Instrumental EP — 3 tracks · 2022",
+  "cover": "vibranium-cover.jpg",
+  "tracks": 3,
+  "bc": "2977725140",
+  "sp": "4B1TCHjVCdBcEEGuP6q5gi"
+ },
+ {
+  "title": "Farther From Where We Started",
+  "type": "Single · 2021",
+  "cover": "farther-cover.jpg",
+  "tracks": 1,
+  "bc": "103467050",
+  "sp": "3MxrAA0xu8V8CIIvBnMgGm"
+ },
+ {
+  "title": "Possess My Clay",
+  "type": "Instrumental EP — 3 tracks · 2021",
+  "cover": "possess-my-clay-cover.jpg",
+  "tracks": 3,
+  "bc": "2943218440",
+  "sp": "2O9CBPTwM2JaPl3u6dzXbA"
+ },
+ {
+  "title": "State of the Human",
+  "type": "EP — 3 tracks · 2021",
+  "cover": "state-of-the-human-cover.jpg",
+  "tracks": 3,
+  "bc": "2293603212",
+  "sp": "5WK6KwMKDsBZ0tlv3xvvyJ"
+ },
+ {
+  "title": "Human After All",
+  "type": "Album — 12 tracks · 2021",
+  "cover": "human-after-all-cover.jpg",
+  "tracks": 12,
+  "bc": "1905956561",
+  "sp": null
+ },
+ {
+  "title": "Ghost Town",
+  "type": "Album — 10 tracks · 2021",
+  "cover": "ghost-town-cover.jpg",
+  "tracks": 10,
+  "bc": "1681415793",
+  "sp": "6Qq22Q3zWaX7OvBrw8qDwP"
+ }
+];
+</script>
+<script src="records.js"></script>
+</body>
+</html>
