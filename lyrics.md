@@ -1,5 +1,13 @@
 # The Neverwas Man — Lyrics
 
+## Vibranium (EP)
+
+### Tell Me You'll Be Good To Me
+
+Just tell me you'll be good to me
+
+---
+
 ## Farther From Where We Started (single)
 
 Everybody's watching everybody else live
