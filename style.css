@@ -306,3 +306,8 @@ nav a:hover, nav a:focus-visible { color: #ccc; text-shadow: none; text-decorati
 .arc-text { filter: drop-shadow(0 0 3px rgba(0,0,0,0.9)) drop-shadow(0 0 6px rgba(0,0,0,0.8)); }
 .arc-text a:hover, .arc-text a:focus-visible { fill: #ccc; text-decoration: underline; }
 .arc-text .sep { fill: #fff; }
+
+.album-bio{white-space:normal;overflow-wrap:break-word;box-sizing:border-box;width:100%;max-width:640px;margin:.4rem auto 1rem;padding:0 1rem;font-style:italic;font-size:.7rem;line-height:1.6;color:#bbb;text-align:left}
+.album-bio p{margin:0 0 .7rem}
+.album-bio cite{display:block;text-align:right;font-size:.68rem;color:#888}
+.release .album-bio p, .newest .album-bio p{white-space:normal;color:#bbb;font-size:.7rem}
