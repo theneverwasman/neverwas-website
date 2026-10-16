@@ -175,7 +175,7 @@ Shallow waters I remember, leave the past alone
 My final bow, I want out
 I can't escape, so I'll burn out
 
-### 6. Full of Lead
+### 6. If You Tried
 
 I'm running out of ways to pretend to be happy
 I'm running out of parts to play to keep you from me
