@@ -165,7 +165,7 @@ My spirit dies a little more each passing day
 My final bow I want out
 I can't escape, so I'll burn out
 
-My heart is giving up and longs for the grave
+My heart has given up and longs for the grave
 I fake a smile to pretend that I'm not in pain
 My final bow I want out
 I can't escape, so I'll burn out
@@ -266,7 +266,7 @@ It feels too good and leaves me nowhere else to go
 
 The scarlet letter branded on me leaves no room for rest
 I can feel the fire reaching out to touch my soul
-It feels too good and leaves no words to go
+It feels too good and leaves me nowhere else to go
 
 Cold dead stare behind hollow eyes
 The poison from her lips took me by surprise
