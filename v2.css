@@ -1,0 +1,18 @@
+*{box-sizing:border-box}
+body{margin:0;background:#050505;color:#e6e6e6;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:48px 20px 80px}
+.neon{font-family:Orbitron,sans-serif;font-weight:700;color:#fff;text-align:center;letter-spacing:.06em;
+ text-shadow:0 0 4px #fff,0 0 10px #ff2a2a,0 0 22px #ff0000,0 0 42px #ff0000,0 0 80px #b00000}
+.title{font-size:clamp(18px,6vw,52px);margin:0 0 48px;text-transform:uppercase;white-space:nowrap}
+.cover{display:block;margin:0 auto 44px;text-decoration:none;text-align:center}
+.cover img{display:block;width:100%;max-width:520px;margin:0 auto;aspect-ratio:1;object-fit:cover;border:1px solid #400;
+ box-shadow:0 0 14px rgba(255,0,0,.45);transition:box-shadow .2s,transform .2s}
+.cover:hover img{box-shadow:0 0 28px rgba(255,30,30,.9);transform:scale(1.01)}
+.cover span{display:block;margin-top:12px;color:#ff6b6b;font-family:Orbitron,sans-serif;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+.album h1{font-size:clamp(26px,6vw,42px);margin:24px 0 40px}
+.back{color:#ff6b6b;text-decoration:none;font-size:14px}
+.song{margin-bottom:44px}
+.song h2{font-family:Orbitron,sans-serif;color:#ff4d4d;font-size:20px;letter-spacing:.04em;margin:0 0 14px;text-shadow:0 0 8px rgba(255,0,0,.6)}
+.lyrics{white-space:pre-wrap;font-family:inherit;font-size:17px;font-weight:400;font-style:normal;line-height:1.6;color:#e6e6e6;margin:0}
+.instr{font-style:normal;color:#9a9a9a;font-size:16px;margin:0;letter-spacing:.05em}
+.title{position:relative;left:50%;transform:translateX(-50%);display:inline-block;width:max-content}
