@@ -311,3 +311,11 @@ nav a:hover, nav a:focus-visible { color: #ccc; text-shadow: none; text-decorati
 .album-bio p{margin:0 0 .7rem}
 .album-bio cite{display:block;text-align:right;font-size:.68rem;color:#888}
 .release .album-bio p, .newest .album-bio p{white-space:normal;color:#bbb;font-size:.7rem}
+
+/* readability + wider column (local edit) */
+main { max-width: 1080px; }
+.album-bio{font-style:normal;font-size:1.05rem;line-height:1.6;color:#e6e6e6;max-width:min(68ch,100%)}
+@media (max-width: 600px){ main{padding:1.5rem .75rem;} .album-bio{font-size:1rem;} }
+.release .album-bio p, .newest .album-bio p, .album-bio p{color:#e6e6e6;font-size:1.05rem;line-height:1.6;font-style:normal}
+.album-bio cite{font-size:.9rem;color:#aaa}
+@media (max-width: 600px){ .release .album-bio p, .newest .album-bio p, .album-bio p{font-size:1rem} }
